@@ -1,7 +1,7 @@
 # Nrk case oppgave til intervju
 
 ## RUN
-Clone repo med 'git clone https://github.com/Aelxnadre72/nrk_views.git'.
+Clone repo med 'git clone https://github.com/Aelxnadre72/nrk_views.git'.<br>
 Kjør 'npm start' innenfor 'nrk-views'-mappen.
 
 ## Info om webapplikasjonen
