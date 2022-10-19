@@ -12,7 +12,7 @@ Eksempel: Denne filtreringen vil vise totalt antall visninger for hver serie og 
 serie: 'Alle', enhet: 'Alle', dato: 01/01/2018 - 01/02/2018
 
 ## NB
-Koden er nokså ustrukturert siden jeg måtte brute force meg gjennom problemer underveis for å ikke bruke altfor lang tid.
+Jeg brute forcet meg gjennom bugs og problemer underveis for å ikke bruke altfor lang tid, så koden har gode optimaliseringsmuligheter.
 Jeg endte opp med å bruke mer enn 4 timer. Håper det går fint. Jeg kunne laget en simplere løsning på kortere tid, men 
-det føler jeg ikke ville gitt et godt inntrykk. Det er en del av koden i charts.tsx som er kommentert ut siden den forelpig 
+det føler jeg ikke ville gitt et bra nok inntrykk. Det er en del av koden i charts.tsx som er kommentert ut siden den foreløpig 
 ikke fungerer 100%.
