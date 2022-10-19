@@ -1,46 +1,18 @@
-# Getting Started with Create React App
+# Nrk case oppgave til intervju
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## RUN
+Clone repo med 'git clone https://github.com/Aelxnadre72/nrk_views.git'.
+Kjør 'npm start' innenfor 'nrk-views'-mappen.
 
-## Available Scripts
+## Info om webapplikasjonen
+Foreløpig er det kun alternativet 'Alle' som fungerer på serie-drop down'en. Enhet-drop down'en fungerer.
+Nettsiden viser alle seriene med totale seertall for hver enhet i den angitte perioden.
 
-In the project directory, you can run:
+Eksempel: Denne filtreringen vil vise totalt antall visninger for hver serie og enhet fra 1. januar til 1. februar 2018:
+serie: 'Alle', enhet: 'Alle', dato: 01/01/2018 - 01/02/2018
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## NB
+Koden er nokså ustrukturert siden jeg måtte brute force meg gjennom problemer underveis for å ikke bruke altfor lang tid.
+Jeg endte opp med å bruke mer enn 4 timer. Håper det går fint. Jeg kunne laget en simplere løsning på kortere tid, men 
+det føler jeg ikke ville gitt et godt inntrykk. Det er en del av koden i charts.tsx som er kommentert ut siden den forelpig 
+ikke fungerer 100%.

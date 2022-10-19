@@ -1,0 +1,10 @@
+.charts {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 50vh;
+    overflow-x: scroll;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 1vw;
+}
